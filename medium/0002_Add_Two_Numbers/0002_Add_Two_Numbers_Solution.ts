@@ -17,7 +17,6 @@ function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | nul
     while (c1 || c2) {
         let sum = 0;
         sum = c1.val + c2.val;
-        console.log(sum);
         if (sum < 10) {
             c1.val = sum;
         }
